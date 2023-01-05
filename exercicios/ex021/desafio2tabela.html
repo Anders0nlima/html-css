@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela com nomes</title>
+    <style>
+        body{
+           font-family: Arial, Helvetica, sans-serif ;
+        }
+        table{
+            text-align: center;
+            border-collapse: collapse;
+            border-radius: 5px;
+
+        }
+        td{
+            border:1px solid black;
+            padding: 10px;
+            width: 200px;
+        }
+        .escuro{
+            background-color: gray;
+            font-size: 18px;
+        }
+        .negrito{
+            font-size: 18px;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <table>
+        <tr class="escuro">
+            
+            <td>
+                <strong>Grupo</strong>
+            </td>
+            <td colspan="2">
+                  <strong>Nomes</strong> 
+            </td>
+            
+            <td colspan="3">
+            <strong>Filmes</strong>
+           </td>
+            
+        </tr>
+        <tr>
+            <td rowspan="3">
+                <strong class="negrito">Mulheres</strong>
+            </td>
+            <td colspan="2">Raquel</td>
+           
+            <td>Alien</td>
+            <td>Rambo</td>
+            <td>Vingadores</td>
+        </tr>
+        <tr>
+            
+            <td colspan="2">Fabiana</td>
+            
+            <td>Hulk</td>
+            <td>Inception</td>
+            <td>Batman</td>
+        </tr>
+        <tr>
+            
+            <td colspan="2">Ana</td>
+            
+            <td>Oblivions</td>
+            <td>Matrix</td>
+            <td>Big Hero</td>
+        </tr>
+        <tr>
+            <td rowspan="3">
+                <strong class="negrito">Homens</strong>
+
+            </td>
+            <td colspan="2">Anderson</td>
+            
+            <td>Intoáveis</td>
+            <td>Amnésia</td>
+            <td>Gladiador</td>
+        </tr>
+        <tr>
+            
+            <td colspan="2">Pedro</td>
+            
+            <td>Wall-E</td>
+            <td>Oldboy</td>
+            <td>DAngal</td>
+        </tr>
+        <tr>
+            
+            <td colspan="2">Carlos</td>
+            
+            <td>Stars Was 5</td>
+            <td>Taxi Draver</td>
+            <td>Toy Story</td>
+        </tr>
+    </table>
+</body>
+</html>
