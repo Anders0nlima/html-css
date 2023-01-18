@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/*definir ate q tamanho o "hanburguer " vai ser mostrado 768 e o tamanho maximo do celular*/
+
+@media  screen and (min-width: 768px) {
+    span#burguer{
+        display: none;
+    }
+    menu{
+        display: block;
+    }
+    menu>ul>li{
+        display: inline-block;
+        width: 100px;
+    }
+}
